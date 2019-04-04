@@ -1,6 +1,6 @@
-	[user]
-	email = dev@andreasbauer.org
-	name = Andreas Bauer
+[user]
+	email = dev@georg-schwarz.com
+	name = Georg Schwarz
 
 [merge]
 	tool = intellij
