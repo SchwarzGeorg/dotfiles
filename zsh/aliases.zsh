@@ -36,3 +36,6 @@ alias gc='git commit --verbose'
 alias gd='git diff'
 alias gco='git checkout '
 alias gl='git log --graph --decorate --pretty=oneline --abbrev-commit'
+
+# Restart Plasmashell (due to bug KDE freezes)
+alias restart-plasmashell='kquitapp5 plasmashell & kstart5 plasmashell'
