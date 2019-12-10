@@ -3,6 +3,6 @@
 ### Installing
 
 ```console
-$ git clone git@github.com:andreas-bauer/dotfiles.git ~/.dotfiles
+$ git clone git@github.com:georg-schwarz/dotfiles.git ~/.dotfiles
 $ make
 ```
