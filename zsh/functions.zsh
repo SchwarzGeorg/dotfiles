@@ -32,5 +32,5 @@ extract() {
 
 # `ls` after `cd`
 function cd {
-	builtin cd "$@" && ll
+	builtin cd "$@" && ls
 }

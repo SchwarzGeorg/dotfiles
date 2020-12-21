@@ -1,10 +1,10 @@
 #!/bin/bash
 
 unalias -a
-
 # List 
-alias ls='ls --color=auto'
+alias ls='ls -l --color=auto'
 alias ll='ls -la --color=auto'
+alias k='k -h --no-vcs'
 
 # Easier navigation
 alias ..='cd ..'
