@@ -72,5 +72,5 @@ bindkey " " expand-alias-space
 xinput set-prop $(xinput | grep "Wireless Mouse" | awk '{print $8}' | sed 's/id=//g') "libinput Scroll Method Enabled" 0, 0, 1
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/georg/.sdkman"
-[[ -s "/home/georg/.sdkman/bin/sdkman-init.sh" ]] && source "/home/georg/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "/$HOME/.sdkman/bin/sdkman-init.sh"
